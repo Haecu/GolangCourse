@@ -1,2 +1,2 @@
 # GolangCourse
-Golang Course projects.
+Projects related to the course for Go Language programming.
