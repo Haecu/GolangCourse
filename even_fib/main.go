@@ -1,7 +1,18 @@
 package main
 
-func main() {
+import "fmt"
 
+func main() {
+	var n1, n2, i, accum int64 = 1, 1, 0, 0
+	for i < 4000000 {
+		i = n1 + n2
+		if i%2 == 0 {
+			accum = accum + i
+		}
+		n1 = n2
+		n2 = i
+	}
+	fmt.Println(accum)
 }
 
 /*
